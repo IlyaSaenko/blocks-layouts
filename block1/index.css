@@ -1,0 +1,37 @@
+body {
+  width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.battery {
+  width: 50vw;
+  height: 20vh;
+  margin: 15px 0;
+  position: relative;
+  border: 5px solid #000;
+}
+
+.battery::after {
+  width: 30px;
+  height: 100px;
+  right: -30px;
+  top: 45px;
+  position: absolute;
+  background: #000;
+  content: "";
+}
+
+.battery_low  {
+  background: linear-gradient(to right, red 0%, red 33%, white 33%);
+}
+
+.battery_mid {
+  background: linear-gradient(to right, yellow 0%, yellow 66%, white 66%);
+}
+
+.battery_high {
+  background: green;
+} 

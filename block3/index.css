@@ -1,0 +1,22 @@
+body {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  position: absolute;
+  align-self: center;
+}
+
+.circle-indicator {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, rgb(232, 255, 228) 70%, transparent 50%),
+  conic-gradient(rgb(186, 231, 186) 25%, rgb(140, 201, 140) 0);
+  transform: rotate(50deg);
+}

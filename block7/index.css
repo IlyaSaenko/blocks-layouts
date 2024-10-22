@@ -1,0 +1,47 @@
+.support {
+  display: flex;
+  position: absolute;
+  top: 140px;
+  left: -410px;
+  transition: 2s;
+}
+
+.support:hover {
+  left: 0;
+}
+
+.support__support-info {
+  height: 166px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(46, 46, 46);
+  color: rgb(255, 255, 255);
+}
+
+.support__image {
+  width: 142px;
+  height: 142px;
+  margin-left: 10px;
+  object-fit: cover;
+}
+
+.support__main-text {
+  width: 254px;
+  height: 104px;
+  margin-left: 10px;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.support__aside-text {
+  width: 166px;
+  height: 36px;
+  margin-left: -66px;
+  align-self: center;
+  text-align: center;
+  font-size: 22px;
+  rotate: -90deg;
+  border: 1px solid black;
+  border-radius: 0 0 20px 20px;
+  background-color: rgb(255, 252, 74);
+}
