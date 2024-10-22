@@ -20,13 +20,11 @@
 ## 4 Блок
 Прогноз погоды
 
-![caption](./screenshots/weather.gif / GIF)
 ![weather](https://github.com/user-attachments/assets/e6907f46-8ef9-4d20-bbed-74c3baafbdd7)
 
 ## 5 Блок
 Кнопка "Комментировать"
 
-![caption](./screenshots/comment.gif / GIF)
 ![comment](https://github.com/user-attachments/assets/33ef3ba6-dbb0-4b7a-ab7f-e749b95d4084)
 
 ## 6 Блок
@@ -37,7 +35,6 @@
 ## 7 Блок
 Выезжающий блок обратной связи 
 
-![caption](./screenshots/side.gif / GIF)
 ![side-call](https://github.com/user-attachments/assets/1b715ce8-dabb-43ca-8b9c-1dfc2896e6b9)
 
 ## 8 Блок
